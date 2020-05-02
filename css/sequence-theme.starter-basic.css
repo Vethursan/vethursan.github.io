@@ -364,6 +364,10 @@ li:not(:first-child) {
   .seq .seq-pagination {
     bottom: 20px;
   }
+
+  .hide_bullet {
+    display: list-item;
+  }
   html,
   body {
     max-width: 375px;
