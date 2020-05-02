@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Starter Basic - Sequence.js Theme</title>
+    <link
+      href="css/sequence-theme.starter-basic.css"
+      rel="stylesheet"
+      media="all"
+    />
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <!--[if lt IE 9]>
+      <script src="scripts/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="sequence" class="seq">
+      <div class="seq-screen">
+        <ul class="seq-canvas">
+          <li class="seq-step1 seq-in" id="step1">
+            <div class="seq-content">
+              <div class="seq-feature">
+                <img data-seq src="images/me.JPG" alt="me" />
+                <p data-seq class="intro seq-feature">
+                  Hi! My name is Vethursan Jegatheeswaran, I'm a recent Machine
+                  Learning and Data Mining graduate from the University of
+                  Toronto. I'm currently seeking new grad software engineering
+                  roles, my interests lie within back-end web development,
+                  infrastructure and machine learning.
+                </p>
+              </div>
+              <div class="info1">
+                <h2 data-seq class="seq-title slide_title">
+                  Intro
+                </h2>
+                <h2 data-seq class="seq-title artist">
+                  Vethursan Jegatheeswaran
+                </h2>
+              </div>
+            </div>
+          </li>
+
+          <li class="seq-step2" id="step2">
+            <div class="seq-content">
+              <div class="seq-feature">
+                <img data-seq src="images/blackberry.png" alt="me" />
+                <div>
+                  <span class="xp_title">Software Developer Intern</span><br />
+                  <span class="xp_date">
+                    May 2019 - August 2019
+                  </span>
+                </div>
+                <h4 class="xp_team">Voice Services Team</h4>
+                <ul>
+                  <li>
+                    Utilized AWS Lambda, DynamoDB, and Node.js to develop a
+                    voice to text BBMe messaging service
+                  </li>
+                  <li>
+                    Developed a service to deliver BlackBerry AtHoc alerts via
+                    smart speakers (Amazon Alexa, Google Home)
+                  </li>
+                  <li>
+                    Ported the services onto a custom Raspbian device by
+                    leveraging the the Alexa Voice Services SDK
+                  </li>
+                </ul>
+                <div class="info">
+                  <h2 data-seq class="seq-title slide_title">
+                    Experience
+                  </h2>
+                  <h2 data-seq class="seq-title artist">
+                    Vethursan Jegatheeswaran
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="seq-step3" id="step3">
+            <div class="seq-content">
+              <div class="seq-feature">
+                <img data-seq src="images/canada.png" alt="me" />
+                <div>
+                  <span class="xp_title">Software Developer Intern</span><br />
+                  <span class="xp_date">
+                    May 2019 - August 2019
+                  </span>
+                </div>
+                <h4 class="xp_team">Data Managment Systems Team</h4>
+                <ul class="list">
+                  <li>
+                    Contributed to the continuous enhancements of the 24/7
+                    Mission Control Data Management System team for every
+                    release cycle, by developing components in Java that decoded
+                    data recorded by sensors across Canada into the realtime
+                    API.
+                  </li>
+                  <li>
+                    Collaborated with team members and business analysts to
+                    implement various software design and programming tasks
+                    required for analyzing weather data for the Manitoba Fire
+                    Network
+                  </li>
+                  <li>
+                    Created scripts to automate the process of updating the
+                    dependent configurations for various programs, apps and
+                    components when the state of a sensor configuration is
+                    changed.
+                  </li>
+                  <li>
+                    Developed a log aggregation tool which allowed the testing
+                    and validation period to be reduced by 30%.
+                  </li>
+                </ul>
+                <div class="info">
+                  <h2 data-seq class="seq-title slide_title">
+                    Experience II
+                  </h2>
+                  <h2 data-seq class="seq-title artist">
+                    Vethursan Jegatheeswaran
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="seq-step1 seq-in" id="step1">
+            <div class="seq-content">
+              <div class="seq-feature">
+                <a href="mailto:vethursan.j@gmail.com" target="_blank"
+                  ><img class="social_icons" src="images/gmail.png"
+                /></a>
+
+                <a href="https://ca.linkedin.com/in/vethursan" target="_blank">
+                  <img class="social_icons" src="images/linkedin.png"
+                /></a>
+
+                <a href="https://github.com/Vethursan" target="_blank">
+                  <img class="social_icons" src="images/github.png"
+                /></a>
+
+                <a href="https://medium.com/@vethursan" target="_blank">
+                  <img class="social_icons" src="images/medium.png"
+                /></a>
+              </div>
+              <div class="info4">
+                <h2 data-seq class="seq-title slide_title">
+                  Contact Me (Outro)
+                </h2>
+                <h2 data-seq class="seq-title artist">
+                  Vethursan Jegatheeswaran
+                </h2>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <ul
+        rel="sequence"
+        class="seq-pagination"
+        role="navigation"
+        aria-label="Pagination"
+      >
+        <li>
+          <a class="seq-prev bwd" title="Go to step 1">Step 1</a>
+        </li>
+        <li>
+          <a class="play" title="Go to step 1">Step 1</a>
+        </li>
+        <li><a class="seq-next fwd" title="Go to step 3">Step 3</a></li>
+      </ul>
+    </div>
+
+    <script src="scripts/imagesloaded.pkgd.min.js"></script>
+    <script src="scripts/hammer.min.js"></script>
+    <script src="scripts/sequence.min.js"></script>
+    <script src="scripts/sequence-theme.starter-basic.js"></script>
+  </body>
+</html>
