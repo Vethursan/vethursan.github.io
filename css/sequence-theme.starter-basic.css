@@ -96,7 +96,7 @@ html,
   display: none;
   position: absolute;
   z-index: 10;
-  bottom: 20px; /* 90px*/
+  bottom: 0; /* 90px*/
   width: 100%;
   border: none;
   text-align: center;
@@ -341,10 +341,7 @@ li:not(:first-child) {
   position: absolute;
   bottom: 80px;
   width: 100%;*/
-  left: 0;
-  position: absolute;
-  bottom: 90px;
-  width: 100%;
+  margin-top: 1vw;
 }
 
 .info4 {
@@ -359,7 +356,14 @@ li:not(:first-child) {
   width: 100%;
 }
 
+.hide_bullet {
+  display: none;
+}
+
 @media only screen and (min-width: 600px) {
+  .seq .seq-pagination {
+    bottom: 20px;
+  }
   html,
   body {
     max-width: 375px;
@@ -403,6 +407,21 @@ li:not(:first-child) {
 
   .intro {
     font-size: 1.2em !important;
+  }
+  .info1 {
+    /*
+    left: 0;
+    position: absolute;
+    bottom: -95px;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    bottom: 80px;
+    width: 100%;*/
+    left: 0;
+    position: absolute;
+    bottom: 90px;
+    width: 100%;
   }
 }
 
