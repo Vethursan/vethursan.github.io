@@ -352,7 +352,7 @@ li:not(:first-child) {
   width: 100%;*/
   left: 0;
   position: absolute;
-  bottom: 100px;
+  bottom: 80px;
   width: 100%;
 }
 
