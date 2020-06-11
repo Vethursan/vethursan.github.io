@@ -177,14 +177,14 @@ html,
 }
 
 .slide_title {
-  font-family: "SF Display Bold" !important;
+  font-family: "SF Display", sans-serif !important;
 }
 .seq .seq-title {
   /* Starting positions */
   margin: 0 0 0 0;
   display: block;
   line-height: 1.4;
-  font-family: "SF Display Regular";
+  font-family: "SF Display", sans-serif;
   font-size: 1.4em;
   opacity: 0;
   -webkit-transition-duration: 0.4s;
@@ -241,7 +241,7 @@ img {
   margin-right: 5px;
 }
 .xp_title {
-  font-family: "SF Display Bold" !important;
+  font-family: "SF Display", sans-serif !important;
   font-size: 1.1em;
 }
 
@@ -252,18 +252,18 @@ img {
 
 .xp_team {
   font-size: 1em;
-  font-family: "SF Display Bold" !important;
+  font-family: "SF Display", sans-serif !important;
 }
 
 .artist {
   color: #fa57c1;
   align-self: center;
-  font-family: "SF Display Light" !important;
+  font-family: "SF Display Light", sans-serif !important;
 }
 
 .seq .seq-feature {
   /* Starting positions */
-  font-family: "SF Display Regular";
+  font-family: "SF Display Regular", sans-serif !important;
   margin: 0 0 0.5em 0;
   display: block;
   line-height: 1.4;
@@ -446,18 +446,19 @@ li:not(:first-child) {
 
 /* FONT SHIT */
 
+/** Regular */
+/** Bold */
+@font-face {
+  font-family: "SF Display";
+  font-weight: 700;
+  src: url("https://sf.abarba.me/SF-UI-Display-Bold.otf");
+}
+
 /** Light */
 @font-face {
   font-family: "SF Display Light";
   font-weight: 200;
   src: url("https://sf.abarba.me/SF-UI-Display-Light.otf");
-}
-
-/** Bold */
-@font-face {
-  font-family: "SF Display Bold";
-  font-weight: 700;
-  src: url("https://sf.abarba.me/SF-UI-Display-Bold.otf");
 }
 
 /** Regular */
