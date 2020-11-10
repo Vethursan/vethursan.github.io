@@ -1,87 +1,217 @@
-# Starter Basic - Sequence.js Theme
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <h1 align="center">Developer's Portfolio ✨</h1>
 
-> Use this blank theme to start building your own themes. Steps are stacked on top of each other so only the content will animate.
+  <p align="center">
+    It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects. Site URL / Demo: 
+    <a href="https://hashirshoaeb.github.io">hashirshoaeb.github.io</a>
+    <br />
+    <br />
+    <a href="https://hashirshoaeb.com">About Me</a>
+    ·
+    <a href="https://github.com/hashirshoaeb/home/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/hashirshoaeb/home/issues">Request Feature</a>
+  </p>
+</p>
 
-This theme is powered by [Sequence.js](http://sequencejs.com/) - The responsive CSS animation framework for creating unique sliders, presentations, banners, and other step-based applications.
+![GitHub contributors](https://img.shields.io/github/contributors/hashirshoaeb/home?color=ffcc66&style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/hashirshoaeb/home?color=ffcc66&style=for-the-badge)
+[![GitHub forks](https://img.shields.io/github/forks/hashirshoaeb/home?style=for-the-badge)](https://github.com/hashirshoaeb/star_book/network)
+[![GitHub issues](https://img.shields.io/github/issues/hashirshoaeb/home?color=ffcc66&style=for-the-badge)](https://github.com/hashirshoaeb/star_book/issues)
+[![GitHub license](https://img.shields.io/github/license/hashirshoaeb/home?style=for-the-badge)](https://github.com/hashirshoaeb/home/blob/master/LICENSE)
+[![Twitter Follow](https://img.shields.io/twitter/follow/hashirshoaeb?color=ffcc66&logo=twitter&logoColor=ffffff&style=for-the-badge)](https://twitter.com/hashirshoaeb)
 
-Theme URL: [http://sequencejs.com/themes/starter-basic/](http://sequencejs.com/themes/starter-basic/)
+[![Site preview](/public/social-image.png)](https://hashirshoaeb.github.io/)
 
+## Table of Contents
 
-Author: [Ian Lunn](http://ianlunn.co.uk/) - [GitHub](https://github.com/IanLunn) | [Twitter](https://twitter.com/IanLunn) | [Email](mailto:info@sequencejs.com)
+- [Technology Stack 🛠️](#technology-stack-)
+- [Structure ⚓](#structure-)
+- [Sharing 💗](#sharing-)
+- [Prerequisites 🍪](#prerequisites-)
+- [Setup And Deployment 🔧](#setup-and-deployment-)
+- [Contributing 🙌](#contributing-)
+- [Issues](#issues)
+- [Upcoming Features / Improvements 🔗](#upcoming-features-/-improvements-)
+- [Showcase 🚀](#showcase-)
+- [Versão em Português :brazil:](#versao-em-portugues-)
 
-## Getting Started
+## Technology Stack 🛠️
 
-To add a Sequence.js theme to your web page, complete the following:
+Dependencies defined in package.json:
 
-1. Download and unzip your theme
-2. Move the `starter-basic` folder to the same folder as the page you'd like the Sequence.js theme to appear on
-3. Add the theme's stylesheet within the `<head></head>` tags on your page, below existing stylesheets. For example:
-```html
-<link rel="stylesheet" href="starter-basic/css/sequence-theme.starter-basic.css" />
-```
+[Reactjs](https://reactjs.org/)
+| [Bootstrap](https://getbootstrap.com/)
+| [Typist](https://github.com/jstejada/react-typist)
+| [GitHub API](https://developer.github.com/v3/repos/)
+| [Instagram API](https://www.instagram.com/developer/embedding/)
 
-4. From `starter-basic/index.html`, copy everything inside the `<body></body>` tags, then paste into the page you'd like the theme to appear on.
-5. From `starter-basic/index.html`, copy any `<script></script>` elements found toward the bottom of the page and paste just before the closing `</body>` tag. This should include a reference to the Sequence.js library, its third-party dependencies, and the theme's options, for example:
-```html
-<script src="starter-basic/scripts/imagesloaded.pkgd.min.js"></script>
-<script src="starter-basic/scripts/hammer.min.js"></script>
-<script src="starter-basic/scripts/sequence.min.js"></script>
-<script src="starter-basic/scripts/sequence-theme.starter-basic.js"></script>
-```
+## Structure ⚓
 
-6. Save your file and view in the browser. You're done!
+- Navigation bar (optional)
+- Body
+  - Name | Profession
+  - Contact / Follow / Find me / Facebook / LinkedIn / GitHub / Instagram / Email / CodePen
+  - Resume | About me
+- About Me
+  - Display picture (optional)
+  - About myself, my Interests, Goals and Hobbies
+  - Things I'm good at (Skills)
+  - Resume button
+- Recent Projects (using GitHub API) (optional)
+- Leadership (optional)
+  - Paragraph
+  - Carousel images
+- Skills (optional)
+  - Technical Skills
+  - Soft Skills
+- Footer
+  - Footer Note (optional)
+  - Copyrights - open source
+  - Acknowledgements(
 
-### Customizing a Theme
+## Sharing 💗
 
-To customize how a theme behaves, its Sequence.js options can be changed in `starter-basic/scripts/sequence-theme.starter-basic.js`. See Options in the [documentation](http://www.sequencejs.com/documentation/#options).
+Project is open source. Feel free to make your own version. All you need to do is to fork this repository, edit [src/editable-stuff/config.js](./src/editable-stuff/config.js) and add resume. Mark star ⭐ if you like the project.
 
-To customize how a theme looks and how its step's transition, refer to the theme's stylesheet: `starter-basic/css/sequence-theme.starter-basic.css`.
+## Prerequisites 🍪
 
-It is recommended to read [Setting Up a Theme](http://www.sequencejs.com/documentation/#setting-up-a-theme) in the documentation for an overview of how transitions are applied to Sequence.js steps.
+You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/) installed on your PC. You should also own a GitHub account.
 
-## Using Grunt.js to Develop a Theme
+## Setup And Deployment 🔧
 
-If you are familiar with Grunt.js, you can use it to automate common development tasks. This however is optional and isn't required for a theme to work.
+1. To Get Started, Fork this repository to your GitHub account:
+2. Clone the forked repo from your account using:
 
-Sequence.js and the themes it powers use [Grunt.js](http://gruntjs.com/) to automate useful tasks. With Grunt.js installed (see Grunt.js' [Getting Started](http://gruntjs.com/getting-started)), use the following command to install this theme's development dependencies:
+   ```bash
+     git clone https://github.com/<your-username>/home.git
+   ```
 
-```
-npm install
-```
+3. Open in editor and edit [src/editable-stuff/config.js](./src/editable-stuff/config.js) file.
 
-Once development dependencies have installed you can use the commands `grunt serve` and `grunt`.
+4. Add your resume as <resume.pdf> in place of [src/editable-stuff/resume.pdf](./src/editable-stuff/)
 
-### `grunt serve`
+5. Edit [title](./public/index.html#L34) and meta [description](./public/index.html#L13) in [public/index.html](./public/index.html).
+6. Change URL in [package.json](./package.json) file:
 
-This command will start a development environment with the following automated tasks:
+   ```json
+    "homepage": "https://<your-username>.github.io/home"
+   ```
 
-- Starts a [livereload](http://livereload.com/) session that will reload your browser whenever a file is changed (be sure to install [livereload](http://livereload.com/))
-- Opens your browser and navigates to `http://localhost:8000/`
-- Sets up a *watch* task to run the following sub-tasks:
-  - Update the version number of the following files when changed in `package.json`:
-    - `scripts/sequence-theme.starter-basic.js`
-    - `scss/sequence-theme.starter-basic.scss`
-    - `css/sequence-theme.starter-basic.css`
-    - `bower.json`
-  - Process any `.scss` files found in the `scss` directory, autoprefix them and then copy to `css` and minify
-  - Refresh the browser when any changes are made in HTML, JS, CSS, or SCSS files
+   Or for deployment at custom domain, refer [create-react-app.dev](https://create-react-app.dev/docs/deployment/#step-1-add-homepage-to-packagejson)
 
-You only need to run `grunt serve` per each development session as the *watch* task will continue to operate as you modify files.
+7. After editing run the following bash commands:
 
-### `grunt`
+   ```bash
+   npm install
+   npm start
+   ```
 
-The `grunt` command is a manual version of the *watch* sub tasks listed for the `grunt serve` command.
+8. To deploy website, run:
 
-## Theme License
+   ```bash
+    npm run build
+    npm run deploy
+   ```
 
-This theme is made available under a [GPLv3 license](http://sequencejs.com/licenses/#free-theme).
+   Or for deployment at \<username>.github.io, refer [READMEdocs/custom-deployment.md](./READMEdocs/custom-deployment.md) and [pages.js](./pages.js)
 
-Copyright © 2015 [Ian Lunn Design Limited](http://ianlunn.co.uk/)
+9. Congrats your site is up and running. To see it live, visit:
 
-## Sequence.js License
+   ```https
+     https://<your-username>.github.io/home
+   ```
 
-This theme is powered by [Sequence.js](http://sequencejs.com/). Sequence.js is made available under the following licenses where applicable:
+10. To change the thumbnail image:
 
-- [GPLv3](http://sequencejs.com/licenses/#personal-open-source-overview) - For personal and open-source projects
-- [Commercial License](http://sequencejs.com/licenses/#commercial-overview) - For commercial projects
-- [Commercial OEM License](http://sequencejs.com/licenses/#commercial-oem-overview) - For commercial OEM projects
+    - Navigate to the "public" folder.  
+    - There you will see "social-image.png".  
+    - Delete it.   
+    - Take a screenshot of your version and rename it "social-image.png" and place it there.  
+    
+   Next time if you make changes, repeat from step 8.
+
+Facing issues? Feel free to contact at hashirshoaeb@gmail.com.
+
+## Contributing 🙌
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## Issues
+
+If anyone is looking to make some contribution, the following are issues that you can solve:
+
+- [ ] UI improvements
+- [ ] Code optimization
+- [x] Routing
+- [ ] SEO
+
+## Showcase 🚀
+
+Have you changed something in the code to create your own version? Feel free to share with me, I will list them in this space.
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/justiceserv/justiceserv.github.io">
+        <img src="READMEdocs/justiceserv-github-io-home.gif" width="300px" alt="" />
+        <br />
+        <sub><b>Guhyun Chung</b></sub>
+      </a>
+      <br />
+    </td>
+    <td align="center">
+      <a href="https://github.com/hamzasohail0/home/">
+        <img src="READMEdocs/hamzasohail0-github-io-home.gif" width="300px" alt="" />
+        <br />
+        <sub><b>Hamza Sohail</b></sub>
+      </a>
+      <br />
+    </td>
+    <td align="center">
+      <a href="https://github.com/AymunTariq/home/">
+        <img src="READMEdocs/aymuntariq-github-io-home.gif" width="300px" alt="" />
+        <br />
+        <sub><b>Aymun Tariq</b></sub>
+      </a>
+      <br />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/anaashrafi/home/">
+        <img src="READMEdocs/anaashrafi-github-io-home.gif" width="300px" alt="" />
+        <br />
+        <sub><b>Ana Ashrafi</b></sub>
+      </a>
+      <br />
+    </td>
+    <td align="center">
+      <a href="https://github.com/jefferyjohn/home/">
+        <img src="READMEdocs/jefferyjohn-github-io-home.gif" width="300px" alt="" />
+        <br />
+        <sub><b>Jeffery John</b></sub>
+      </a>
+      <br />
+    </td>
+    <td align="center">
+      <a href="https://github.com/remimestdagh/home/">
+        <img src="READMEdocs/remimestdagh-github-io-home.gif" width="300px" alt="" />
+        <br />
+        <sub><b>Remi Mestdagh</b></sub>
+      </a>
+      <br />
+    </td>
+  </tr>
+</table>
+
+## Versão em Português :brazil:
+
+Esse projeto foi traduzido para português! Se você gostou dele e quer criar a sua própria versão, confira o repositório do [@tashima42](https://github.com/tashima42) em [https://github.com/Tashima42/home](https://github.com/Tashima42/home).
+Novas contribuições e revisões na tradução são muito bem vindas!
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/hashirshoaeb/home.svg)](https://starchart.cc/hashirshoaeb/home)
