@@ -5,7 +5,7 @@ $type-scales: (
   major-third: 1.25,
   perfect-fourth: 1.333,
   augmented-fourth: 1.414,
-  perfect-fifth: 1.5,
+  perfect-fifth: 1.5
 );
 
 $heading-type-scale-base: minor-third;
@@ -72,7 +72,7 @@ $display-type-scale-base: minor-third;
     font-size: $font-size-display-2;
   }
   .display-1 {
-    font-size: $font-size-display-1;
+    font-size: $font-size-display-3;
   }
 }
 // Create the heading font sizes
